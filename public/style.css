@@ -5,6 +5,7 @@ body {
 
 main {
   min-height: 500px;
+  text-align: center;
 }
 
 header h1 {
@@ -36,4 +37,17 @@ footer {
   display: inline-block;
   margin: 0 35px;
   line-height: 0.5em;
+}
+
+#inside-shop-photo {
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px black;
+}
+
+.welcome-text {
+  font-size: 1.7em;
+}
+
+.welcome-header {
+  font-size: 2em;
 }
