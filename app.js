@@ -31,3 +31,15 @@ app.get('/about', function(req, res){
   };
   res.sendFile('about.html', options);
 });
+
+app.get('/mission', function(req, res){
+  let options = {
+    root: __dirname,
+    dotfiles: 'deny',
+    headers: {
+      'x-timestamp': Date.now(),
+      'x-sent': true
+    }
+  };
+  res.sendFile('mission.html', options);
+});
