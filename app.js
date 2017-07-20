@@ -19,3 +19,15 @@ app.get('/', function(req, res) {
 
   res.sendFile('index.html', options);
 });
+
+app.get('/about', function(req, res){
+  let options = {
+    root: __dirname,
+    dotfiles: 'deny',
+    headers: {
+      'x-timestamp': Date.now(),
+      'x-sent': true
+    }
+  };
+  res.sendFile('about.html', options);
+});
