@@ -7,12 +7,36 @@ main {
   min-height: 500px;
 }
 
+
 header h1 {
   text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-size: 75px;
+  color: #AA3939;
+  margin-bottom: -50px;
+}
+
+header h2 {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: #AA3939;
+  margin-bottom: -50px;
+
 }
 
 a {
   text-decoration: none;
+}
+
+a:visited {
+  color: #226666;
 }
 
 nav ul {
@@ -20,6 +44,7 @@ nav ul {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 10px;
+  margin-top: 70px;
 }
 
 nav ul li {
