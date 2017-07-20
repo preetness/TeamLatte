@@ -31,6 +31,7 @@ nav ul li {
 footer {
   text-align: center;
   border-top: 1px solid black;
+  clear: both;
 }
 
 .contact, .hours {
@@ -50,4 +51,33 @@ footer {
 
 .welcome-header {
   font-size: 2em;
+}
+
+#sage-photo {
+  border-radius: 100%;
+  width: 300px;
+  float: right;
+  margin-left: 25px;
+  box-shadow: 1px 5px 5px black;
+
+}
+
+#raymond-photo {
+  border-radius: 100%;
+  width: 300px;
+  float: left;
+  margin-right: 25px;
+  box-shadow: 1px 5px 5px black;
+
+}
+
+#raymond-about, #sage-about {
+  clear: both;
+  max-width: 66%;
+  margin: 0 auto;
+}
+
+#sage-about p, #raymond-about p {
+  padding: 100px 30px;
+  font-size: 1.2em;
 }
