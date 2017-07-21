@@ -15,3 +15,7 @@ app.get('/about', function(req, res){
 app.get('/mission', function(req, res){
   res.render('pages/mission');
 });
+
+app.get('/location', function(req, res){
+  res.render('pages/location');
+});
