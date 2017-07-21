@@ -15,9 +15,9 @@
   "dependencies": {
     "body-parser": "",
     "dotenv": "^4.0.0",
+    "ejs": "^1.0.0",
     "express": "",
     "pug": "",
-    "stripe": "",
-    "ejs": "^1.0.0"
+    "stripe": ""
   }
 }
