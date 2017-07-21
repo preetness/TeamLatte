@@ -115,9 +115,7 @@ Step 4: Set up .env___________________________________________
 .env
 
 >>>>>>>>>>>>>>>>>>>>>.env<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-PUBLISHABLE_KEY = pk_test_yyEx3ZL7QcdWSh4jLOpWSQi2
-SECRET_KEY = sk_test_x9YhZOtAQh4j3QmXlHOyYjR2
+Add keys to .env
 
 Step 5: Include packages_____________________________________
 >>>>>>>>>>>>>>>>>>>>>>>>>>package.json<<<<<<<<<<<<<<<<<<<<
