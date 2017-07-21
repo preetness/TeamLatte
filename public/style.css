@@ -4,13 +4,31 @@ body {
 }
 
 main {
-  /*min-height: 500px;*/
-  text-align: center;
-  padding-bottom: 10px;
+  min-height: 500px;
 }
+
 
 header h1 {
   text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-size: 75px;
+  color: #AA3939;
+  margin-bottom: -50px;
+}
+
+header h2 {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: #AA3939;
+  margin-bottom: -50px;
+
 }
 
 a {
@@ -22,69 +40,36 @@ nav ul {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 10px;
+  margin-top: 70px;
 }
 
 nav ul li {
   display: inline;
   padding: 10px;
+  color: #226666;
+  font-family: 'Amatic SC';
+  font-size: 35px;
+}
+
+a:visited {
+  color: #226666;
+}
+
+a:hover {
+  color: #AA3939;
 }
 
 footer {
   text-align: center;
   border-top: 1px solid black;
-  clear: both;
 }
 
 .contact, .hours {
   display: inline-block;
   margin: 0 35px;
   line-height: 0.5em;
-}
-
-#inside-shop-photo {
-  border-radius: 15px;
-  box-shadow: 1px 5px 5px black;
-}
-
-.welcome-text {
-  font-size: 1.7em;
-}
-
-.welcome-header {
-  font-size: 2em;
-}
-
-#sage-photo {
-  border-radius: 100%;
-  width: 300px;
-  float: right;
-  margin-left: 25px;
-  box-shadow: 1px 5px 5px black;
-
-}
-
-#raymond-photo {
-  border-radius: 100%;
-  width: 300px;
-  float: left;
-  margin-right: 25px;
-  box-shadow: 1px 5px 5px black;
-
-}
-
-#raymond-about, #sage-about {
-  clear: both;
-  max-width: 66%;
-  margin: 0 auto;
-}
-
-#sage-about p, #raymond-about p {
-  padding: 100px 30px;
-  font-size: 1.2em;
-}
-
-.mission-text {
-  max-width: 75%;
-  margin: 0 auto;
-  font-size: 1.2em;
+  color: #804515;
+  font-family: 'Amatic SC';
+  font-size: 25px;
+  letter-spacing: .15em;
 }
