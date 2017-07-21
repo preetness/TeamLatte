@@ -35,10 +35,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #226666;
-}
-
 nav ul {
   text-align: center;
   border-top: 1px solid black;
@@ -50,6 +46,17 @@ nav ul {
 nav ul li {
   display: inline;
   padding: 10px;
+  color: #226666;
+  font-family: 'Amatic SC';
+  font-size: 35px;
+}
+
+a:visited {
+  color: #226666;
+}
+
+a:hover {
+  color: #AA3939;
 }
 
 footer {
@@ -61,4 +68,8 @@ footer {
   display: inline-block;
   margin: 0 35px;
   line-height: 0.5em;
+  color: #804515;
+  font-family: 'Amatic SC';
+  font-size: 25px;
+  letter-spacing: .15em;
 }
