@@ -15,5 +15,13 @@
   "dependencies": {
     "express": "^4.15.3",
     "ejs": "^1.0.0"
+  },
+
+  "main": "server.js",
+  "dependencies": {
+    "express":"",
+    "stripe":"",
+    "body-parser":"",
+    "pug":""
   }
 }
