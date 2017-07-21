@@ -141,11 +141,24 @@ footer {
   margin: 0 auto;
 }
 
+#tote-photo {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
 .product-details {
   width: 45%;
   margin: 15px;
   display: inline-block;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 .product-form {
   text-align: center;
+}
+
+#order-conf {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  margin: 25% 0;
 }
