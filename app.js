@@ -19,3 +19,7 @@ app.get('/mission', function(req, res){
 app.get('/location', function(req, res){
   res.render('pages/location');
 });
+
+app.get('/menu', function(req, res){
+  res.render('pages/menu');
+});
