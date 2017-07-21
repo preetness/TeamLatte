@@ -39,17 +39,14 @@ app.get("/store", (req, res) =>
   res.render("pages/store", {keyPublishable}));
 
 app.post("/charge", (req, res) => {
-  let amount = 500;
-   console.log(req);
-
   stripe.customers.create({
      email: req.body.stripeEmail,
     source: req.body.stripeToken,
   })
   .then(customer =>
     stripe.charges.create({
-      amount,
-      description: "Sample Charge",
+      amount: parseInt(req.body['amount']),
+      description: req.body['product'],
          currency: "usd",
          customer: customer.id,
          metadata: {'product': req.body['product']}
