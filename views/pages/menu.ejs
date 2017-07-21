@@ -10,162 +10,110 @@
       <% include ../partials/header %>
     </header>
     <main>
-      <div id='menu-container' class="container debug">
-        <div id="drinks-menu">
-          <div class="col span-5-t span-5-d">
-            <h3 class="menu-heading">Drinks</h3>
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            <h3 class='menu-heading'>12oz</h3>
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            <h3 class='menu-heading'>16oz</h3>
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Espresso
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $2.25
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $3
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Macchiato
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $3
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $3.50
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Latte
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $3.75
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $4.25
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Mocha
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $4
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $4.50
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Americano
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $2.75
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            -
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Americano Misto
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $3.50
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $4
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Cafe au lait
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $2.75
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $3.25
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Drip
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $2.25
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $2.50
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Tea
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $2.75
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            -
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Cocoa
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $3.25
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $3.75
-          </div>
-          <div class="col span-5-t span-5-d drink-item">
-            Chai Latte
-          </div>
-          <div class="col span-3-t span-4-d 12oz">
-            $3.50
-          </div>
-          <div class="col span-4-t span-3-d 16oz">
-            $4
-          </div>
-        </div>
-        <div id="pastries-menu">
-          <div class="col span-3-t span-9-d debug">
-            <h3 class="menu-heading">Pastries</h3>
-          </div>
-          <div class="col span-9-t span-3-d debug">
-            <h3 class='menu-heading'>Price</h3>
-          </div>
-          <div class="col span-3-t span-9-d debug menu-item">
-            Jalapeño Croissant
-          </div>
-          <div class="col span-9-t span-3-d debug price-right">
-            $8.50
-          </div>
-          <div class="col span-3-t span-9-d debug menu-item">
-            Blueberry Acai Muffin
-          </div>
-          <div class="col span-9-t span-3-d debug price-right">
-            $10
-          </div>
-          <div class="col span-3-t span-9-d debug menu-item">
-            Kale Infused Bagel
-          </div>
-          <div class="col span-9-t span-3-d debug price-right">
-            $9
-          </div>
-          <div class="col span-3-t span-9-d debug menu-item">
-            Kimchi Bagel
-          </div>
-          <div class="col span-9-t span-3-d debug price-right">
-            $8.50
-          </div>
-          <div class="col span-3-t span-9-d debug menu-item">
-            Free Range Quiche
-          </div>
-          <div class="col span-9-t span-3-d debug price-right">
-            $15
-          </div>
-          <div class="col span-3-t span-9-d debug menu-item">
-            Tofu Donut
-          </div>
-          <div class="col span-9-t span-3-d debug price-right">
-            $7.50
-          </div>
-        </div>
-      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Drink</th>
+            <th>12 oz</th>
+            <th>16 oz</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Espresso</td>
+            <td>$2.25</td>
+            <td>$3</td>
+          </tr>
+          <tr>
+            <td>Macchiato</td>
+            <td>$3</td>
+            <td>$3.50</td>
+          </tr>
+          <tr>
+            <td>Latte</td>
+            <td>$3.75</td>
+            <td>$4.25</td>
+          </tr>
+          <tr>
+            <td>Mocha</td>
+            <td>$4</td>
+            <td>$4.50</td>
+          </tr>
+          <tr>
+            <td>Americano</td>
+            <td>$2.75</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Americano Misto</td>
+            <td>$3.50</td>
+            <td>$4</td>
+          </tr>
+          <tr>
+            <td>Cafe au Lait</td>
+            <td>$2.75</td>
+            <td>$3.25</td>
+          </tr>
+          <tr>
+            <td>Drip</td>
+            <td>$2.25</td>
+            <td>$2.50</td>
+          </tr>
+          <tr>
+            <td>Tea</td>
+            <td>$2.75</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Cocoa</td>
+            <td>$3.25</td>
+            <td>$3.75</td>
+          </tr>
+          <tr>
+            <td>Chai Latte</td>
+            <td>$3.50</td>
+            <td>$4</td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Pastry</th>
+            <th>Price</th>
+            <th>w/ extras</th>
+          </tr>
+        </thead>
+        <br>
+        <tbody>
+          <tr>
+            <td>Croissant</td>
+            <td>$2.99</td>
+            <td>$3.99</td>
+          </tr>
+          <tr>
+            <td>Bagel</td>
+            <td>$2.49</td>
+            <td>$3.49</td>
+          </tr>
+          <tr>
+            <td>Danish</td>
+            <td>$2.99</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Muffin</td>
+            <td>$4.50</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Cinnamon Roll</td>
+            <td>$5</td>
+            <td>-</td>
+          </tr>
+
+        </tbody>
+      </table>
     </main>
     <footer>
       <% include ../partials/footer %>
