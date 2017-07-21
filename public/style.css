@@ -4,7 +4,8 @@ body {
 }
 
 main {
-  min-height: 500px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 
@@ -72,4 +73,52 @@ footer {
   font-family: 'Amatic SC';
   font-size: 25px;
   letter-spacing: .15em;
+}
+
+#inside-shop-photo {
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px black;
+}
+
+.welcome-text {
+  font-size: 1.7em;
+}
+
+.welcome-header {
+  font-size: 2em;
+}
+
+#sage-photo {
+  border-radius: 100%;
+  width: 300px;
+  float: right;
+  margin-left: 25px;
+  box-shadow: 1px 5px 5px black;
+
+}
+
+#raymond-photo {
+  border-radius: 100%;
+  width: 300px;
+  float: left;
+  margin-right: 25px;
+  box-shadow: 1px 5px 5px black;
+
+}
+
+#raymond-about, #sage-about {
+  clear: both;
+  max-width: 66%;
+  margin: 0 auto;
+}
+
+#sage-about p, #raymond-about p {
+  padding: 100px 30px;
+  font-size: 1.2em;
+}
+
+.mission-text {
+  max-width: 75%;
+  margin: 0 auto;
+  font-size: 1.2em;
 }
