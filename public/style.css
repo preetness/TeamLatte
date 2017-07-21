@@ -5,8 +5,9 @@ body {
 
 main {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   font-family: 'Alegreya Sans', sans-serif;
+  line-height: 1.7em;
 }
 
 
@@ -109,17 +110,27 @@ footer {
 
 #raymond-about, #sage-about {
   clear: both;
-  max-width: 66%;
+  max-width: 70%;
   margin: 0 auto;
+  padding: 20px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #sage-about p, #raymond-about p {
-  padding: 100px 30px;
   font-size: 1.2em;
+}
+
+#sage-about h3, #raymond-about h3 {
+  font-size: 1.5em;
 }
 
 .mission-text {
   max-width: 75%;
   margin: 0 auto;
   font-size: 1.2em;
+}
+
+#outside-shop-photo {
+  width: 50%;
 }
