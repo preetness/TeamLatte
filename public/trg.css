@@ -144,20 +144,3 @@
     .gutters-d .span-11-d { width: 91.5%; }
     .gutters-d .span-12-d { width: 100%; }
 }
-
-.price-right {
-  text-align: left;
-  padding-left: 100px;
-}
-
-.menu-heading, .menu-item {
-  text-align: left;
-}
-
-.menu-item {
-  padding-bottom: 5px;
-}
-
-.drink-item {
-  text-align: left;
-}

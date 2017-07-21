@@ -13,15 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
+    "body-parser": "",
+    "dotenv": "^4.0.0",
+    "express": "",
+    "pug": "",
+    "stripe": "",
     "ejs": "^1.0.0"
-  },
-
-  "main": "server.js",
-  "dependencies": {
-    "express":"",
-    "stripe":"",
-    "body-parser":"",
-    "pug":""
   }
 }
