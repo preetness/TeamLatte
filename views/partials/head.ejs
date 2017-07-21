@@ -8,3 +8,13 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Rock+Salt|Source+Sans+Pro|Ubuntu" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('nav a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });
+</script>
