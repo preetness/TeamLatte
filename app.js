@@ -21,6 +21,9 @@ app.get('/location', function(req, res){
   res.render('pages/location');
 });
 
+app.get('/menu', function(req, res){
+  res.render('pages/menu');
+});
 // Stripe imports & config
 const keyPublishable = process.env.PUBLISHABLE_KEY;
 const keySecret = process.env.SECRET_KEY;
