@@ -132,7 +132,8 @@ footer {
 }
 
 #outside-shop-photo {
-  width: 50%;
+  width: 45%;
+  display: inline-block;
 }
 
 
@@ -167,11 +168,6 @@ footer {
 .active {
   color: #AA3939 !important;
   font-size: 45px;
-
-#menu-container {
-  text-align: left;
-  max-width: 80%;
-  margin-right: 20px;
 }
 
 .drink-item {
@@ -243,4 +239,23 @@ only screen and (max-width: 760px),
   td:nth-of-type(2):before { content: "12 oz"; }
   td:nth-of-type(3):before { content: "16 oz"; }
 
+}
+
+#map {
+  display: inline-block;
+  width: 45%;
+  min-height: 287px;
+  margin-left: 30px;
+}
+
+.located-text {
+  font-size: 1.5em;
+}
+
+@media (max-width) {
+  #map {
+
+  }
+
+  #
 }

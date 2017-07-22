@@ -10,20 +10,17 @@
     </header>
     <main>
       <img id='outside-shop-photo' src="img/outside-coffee-shop.jpeg" />
-      <h3>Address</h3>
-      <p>
-        401 5th Avenue
-      </p>
-      <p>
-        Seattle, WA 98101
-      </p>
-      <h3><a href="https://www.google.com/maps/place/401+5th+Ave,+Seattle,+WA+98104/@47.6024841,-122.3307638,17z/data=!3m1!4b1!4m5!3m4!1s0x54906aba3f3d6de5:0x1fb437d954dcddd2!8m2!3d47.6024841!4d-122.3285751">Directions</a></h3>
-      <iframe width="600" height="450" frameborder="0" style="border:0"
+      <iframe id='map' frameborder="0" style="border:0"
 src="https://www.google.com/maps/embed/v1/place?q=401%205th%20ave%20seattle%20wa&key=AIzaSyC6Ss5GQZJ2i3Fi9TOcGFesaRxAqk52k1k" allowfullscreen></iframe>
-      <p>
+      <p class='located-text'>
         Located in the heart of downtown Seattle, off of Jefferson & 5th, inside the Chinook Building.
       </p>
-
+      <div class='address-container'>
+        <h3>401 5th Avenue - Seattle, WA 98101</h3>
+        <h3><a href="https://www.google.com/maps/place/401+5th+Ave,+Seattle,+WA+98104/@47.6024841,-122.3307638,17z/data=!3m1!4b1!4m5!3m4!1s0x54906aba3f3d6de5:0x1fb437d954dcddd2!8m2!3d47.6024841!4d-122.3285751">Directions</a></h3>
+        <p>
+        </p>
+      </div>
     </main>
     <footer>
       <% include ../partials/footer %>
